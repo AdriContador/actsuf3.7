@@ -9,8 +9,6 @@ def prn_header():
 
 
 def insert_log():
-    aux = 1
-    while aux == 1:
         bio = dict()
         bio['Data'] = input(msg.MSG1)
         bio['Nom'] = input(msg.MSG2)
@@ -18,7 +16,6 @@ def insert_log():
         bio['Espècie'] = input(msg.MSG4)
         bio['Mida'] = input(msg.MSG5)
         bio['Característiques'] = input(msg.MSG6)
-        aux = int(input(msg.AUX))
         return bio
 
 
